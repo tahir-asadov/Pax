@@ -1,0 +1,269 @@
+/* ==========================================================================
+   [Section]
+========================================================================== */
+.section {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 20px 0;
+}
+.section > div > div > div {
+    transition: all 300ms ease-in-out;
+}
+.row {
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+
+/* ==========================================================================
+   [Section: Headers]
+========================================================================== */
+.section-header {
+    border: $border-color solid 1px;
+}
+.section-header .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo {
+    text-align: center;
+    display: block;
+    margin-top: 7px;
+}
+.social-links {
+    display: none;
+    margin-left: 10px;
+}
+.h-menu {
+    display: none;
+    margin-top: 3px;
+}
+/* ==========================================================================
+   [Section: Featured Video]
+========================================================================== */
+.section-featured-video {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,c9c9c9+61,ffffff+99&0+0,0.65+63,0.65+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(201,201,201,0.63) 61%, rgba(204,204,204,0.65) 63%, rgba(255,255,255,0.65) 99%, rgba(255,255,255,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(201,201,201,0.63) 61%,rgba(204,204,204,0.65) 63%,rgba(255,255,255,0.65) 99%,rgba(255,255,255,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(201,201,201,0.63) 61%,rgba(204,204,204,0.65) 63%,rgba(255,255,255,0.65) 99%,rgba(255,255,255,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6ffffff',GradientType=0 ); /* IE6-9 */
+}
+.section-featured-video img {
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+/* ==========================================================================
+   [Section: Services]
+========================================================================== */
+.section-services {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,e2e2e2+100&0+0,0.65+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(226,226,226,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(226,226,226,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(226,226,226,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6e2e2e2',GradientType=0 ); /* IE6-9 */
+}
+.section-services .services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 300px;
+}
+.section-services .icon {
+    width: 100%;
+    min-height: 150px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-services .icon-1 {
+    background-image: url(../img/icon-1.png);
+}
+.section-services .icon-2 {
+    background-image: url(../img/icon-2.png);
+}
+.section-services .icon-3 {
+    background-image: url(../img/icon-3.png);
+}
+.section-services .icon-4 {
+    background-image: url(../img/icon-4.png);
+}
+.section-services p {
+    font-weight: 300;
+}
+/* ==========================================================================
+   [Section: Creativity]
+========================================================================== */
+.section-creativity {
+    min-height: 600px;
+    padding-top: 220px;
+    background-image: url(../img/creativity.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-creativity .button {
+    box-shadow: 0px 0px 15px 17px white;
+}
+
+
+/* ==========================================================================
+   [Section: How We Work]
+========================================================================== */
+.section-how-we-work {
+    background: #0149a1;
+}
+
+.section-how-we-work img {
+    max-width: 100%;
+}
+.section-how-we-work .schema {
+    text-align: center;
+}
+/* ==========================================================================
+   [Section: Opinion]
+========================================================================== */
+.section-opinion {
+    padding: 120px 0;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d1d1d1+25,000000+100&0.65+0,0.39+27,0+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0.65) 0%, rgba(209,209,209,0.41) 25%, rgba(203,203,203,0.39) 27%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.65) 0%,rgba(209,209,209,0.41) 25%,rgba(203,203,203,0.39) 27%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0.65) 0%,rgba(209,209,209,0.41) 25%,rgba(203,203,203,0.39) 27%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.section-opinion img {
+    width: 150px;
+    border-radius: 100%;
+}
+.section-opinion h3 {
+    color: $secondary-light;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    font-style: italic;
+    font-size: 21px;
+    margin: 30px auto;
+}
+.section-opinion p {
+    color: $secondary-light;
+    font-weight: 300;
+}
+.rslides1_on h3 {
+    animation: fl 1000ms ease-in-out;
+}
+.rslides1_on img {
+    animation: ft 1000ms ease-in-out;
+}
+.section-opinion a {
+    color: $secondary-light;
+    font-weight: 300;
+}
+.rslides img {
+    display: inline-block;
+    float: none;
+}
+.rslides .slide {
+    float: none !important;
+    left: 0;
+    right: 0;
+}
+.rslides_nav.prev, .rslides_nav.next {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.rslides_nav.prev {
+    background-image: url(../img/left-arrow.png);
+    left: 50px;
+} 
+.rslides_nav.next {
+    background-image: url(../img/right-arrow.png);
+    right: 50px;
+}
+.rslides_tabs {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.rslides_tabs li {
+    list-style: none;
+    display: inline-block;
+}
+.rslides_tabs li a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 100%;
+    margin: 0 2px;
+    border: $secondary-light solid 1px;
+    position: relative;
+}
+.rslides_tabs li.rslides_here a:after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: $secondary-light;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 100%;
+}
+
+/* ==========================================================================
+   [Section: Team]
+========================================================================== */
+.section-team {
+    background: $team-bg;
+}
+.section-team .team-member {
+     margin: 20px 0;
+}
+.team-image {
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.team-image img {
+    width: 100%;
+}
+.section-team p {
+    font-weight: 300;
+}
+/* ==========================================================================
+   [Section: Map]
+========================================================================== */
+.section-map {
+    min-height: 500px;
+    background-image: url(../img/map.png);
+    background-position: center;
+}
+/* ==========================================================================
+   [Section: Footer]
+========================================================================== */
+.section-footer {
+    background: $primary-dark;
+}
+
+.section-footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.section-footer ul li {
+    list-style: none;
+    text-align: center;
+}
+.section-footer ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 17px;
+}

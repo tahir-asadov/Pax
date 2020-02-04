@@ -1,0 +1,174 @@
+/* ==========================================================================
+   [Responsive design]
+========================================================================== */
+
+
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0 10px 0;
+}
+h2 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+h3 {
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+}
+h4 {
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+}
+h5 {
+    font-size: 10px;
+    margin: 5px 0 5px 0;
+}
+h6 {
+    font-size: 10px;
+    margin: 5px 0 5px 0;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .logo {
+        text-align: left;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 10px 0 10px 0;
+    }
+    h2 {
+        font-size: 25px;
+        margin: 10px 0 10px 0;
+    }
+    h3 {
+        font-size: 28px;
+        margin: 15px 0 15px 0;
+    }
+    h4 {
+        font-size: 18px;
+        margin: 10px 0 10px 0;
+    }
+    h5 {
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+    }
+    h6 {
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+    }
+    .section-footer ul li {
+        text-align: left;
+    }
+    .section-footer ul {
+        margin-bottom: 0;
+    }.section-team .team-member {
+        min-height: 400px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .section-how-we-work .schema {
+        text-align: left;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .logo {
+        text-align: left;
+    }
+    .h-menu {
+        display: block;
+    }
+    .social-links {
+        display: block;
+    }
+}
+
+
+/* ==========================================================================
+   [Mobile navigation]
+========================================================================== */
+.hamburger {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: 6;
+}
+.hamburger--mini .hamburger-inner, .hamburger--mini .hamburger-inner::after, .hamburger--mini .hamburger-inner::before {
+    width: 30px;
+}
+.hamburger--mini .hamburger-box {
+    width: 30px;
+}
+.hamburger--light .hamburger-inner, .hamburger--light .hamburger-inner:after, .hamburger--light .hamburger-inner:before {
+    background-color: #fff;
+}
+.hamburger--dark .hamburger-inner, .hamburger--dark .hamburger-inner:after, .hamburger--dark .hamburger-inner:before {
+    background-color: $primary-dark;
+}
+.mobile-nav {
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    background: $white;
+    z-index: 5;
+    // border: $primary-dark solid 5px;
+    transition: all 300ms ease-in-out;
+    transform: translateX(-100%);
+}
+.m-nav-logo {
+    display: block;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 600ms ease-in-out;
+    transform: translateX(-100%);
+}
+.mobile-nav ul {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 50px 0;
+    transition: all 600ms ease-in-out;
+    transform: translateX(-100%);
+    /*background: rgba(255, 255, 255, .3);*/
+}
+.mobile-nav ul li {
+    text-align: center;
+}
+.mobile-nav ul li a {
+    display: block;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+.mobile-nav.show {
+    transform: translateX(0);
+}
+.mobile-nav.show .m-nav-logo {
+    transform: translateX(0);
+}
+
+.mobile-nav.show ul {
+    transform: translateX(0);
+}
